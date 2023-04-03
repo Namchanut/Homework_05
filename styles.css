@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a :hover {
+  color: salmon;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: end;
+  /* border: 2px solid black; */
+  font-size: 16px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+.profile img {
+  width: 243px;
+  height: 243px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile {
+  display: flex;
+  width: 65%;
+  margin: 0 auto;
+}
+.p-left input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(242, 32, 32);
+  color: whitesmoke;
+}
+
+.p-left p {
+  margin-bottom: 20px;
+}
+.p-left h2 {
+  margin-bottom: 20px;
+}
+
+.recent {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 65%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.content1 {
+  max-width: 400px;
+  /* min-height: 200px; */
+  background-color: white;
+  gap: 20px;
+}
+.content1 * {
+  margin-bottom: 18px;
+  padding: 7px;
+}
+
+.boxpost {
+  background-color: #edf7fa;
+  /* height: 240px; */
+  padding: 20px 0;
+}
+
+.featuredworks {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.workbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid black;
+}
+
+.workbox img {
+  width: 246px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.w-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.w-right input {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 2px;
+}
+.icon {
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  gap: 10px;
+}
