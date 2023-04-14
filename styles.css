@@ -132,3 +132,17 @@ footer {
   margin: 20px;
   gap: 10px;
 }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.inbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
